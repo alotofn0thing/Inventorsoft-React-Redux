@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+* {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.main {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+.dark {
+	background-color: #210f4f;
+}
+.light {
+	background-color: #69bed3;
+}
+button.MuiToggleButton-root {
+	color: #e64a5c;
+}
+button.MuiToggleButton-root.Mui-selected {
+	background-color: #1a2027 !important;
+	color: white;
+}
